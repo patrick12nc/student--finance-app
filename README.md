@@ -1,11 +1,11 @@
 Student Finance App
 A smart personal finance mobile application designed to help users manage their money, track spending, and receive intelligent financial advice.
  
- Overview
+Overview
 This project was developed as part of a final year dissertation. The application aims to improve financial awareness by combining financial tracking, analytics, and intelligent recommendations in a simple and user-friendly interface.
 The app is designed especially for students and everyday users who want to better understand their spending habits and improve their financial health.
  
- Features
+Features
 •	Add and track income
 •	 Record and categorise expenses
 •	 View analytics and spending breakdown
@@ -15,7 +15,7 @@ The app is designed especially for students and everyday users who want to bette
 •	 Dark and light mode support
 •	 Reset and demo data options
 
- Intelligent Features
+Intelligent Features
 The application includes a rule-based AI system that analyses:
 •	Income vs expenses
 •	Savings behaviour
