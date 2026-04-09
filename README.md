@@ -1,50 +1,83 @@
-# Welcome to your Expo app 👋
+Student Finance App
+A smart personal finance mobile application designed to help users manage their money, track spending, and receive intelligent financial advice.
+ 
+ Overview
+This project was developed as part of a final year dissertation. The application aims to improve financial awareness by combining financial tracking, analytics, and intelligent recommendations in a simple and user-friendly interface.
+The app is designed especially for students and everyday users who want to better understand their spending habits and improve their financial health.
+ 
+ Features
+•	Add and track income
+•	 Record and categorise expenses
+•	 View analytics and spending breakdown
+•	 Set savings goals and monitor progress
+•	 AI Coach for personalised financial advice
+•	 Financial health score and risk level
+•	 Dark and light mode support
+•	 Reset and demo data options
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+ Intelligent Features
+The application includes a rule-based AI system that analyses:
+•	Income vs expenses
+•	Savings behaviour
+•	Budget usage
+•	Spending patterns
+
+It then generates:
+•	A financial health score
+•	Risk level (Low / Medium / High)
+•	Personalised advice
+•	Insights explaining user behaviour
+
+ System Architecture
+The application follows a layered architecture:
+•	Presentation Layer – UI screens and components
+•	Logic Layer – calculations, insights, and AI logic
+•	Data Layer – local storage using AsyncStorage
+
+Technologies Used
+•	React Native (Expo)
+•	TypeScript
+•	AsyncStorage (local data storage)
+•	Custom rule-based AI logic
+
+Screens
+•	Home (dashboard)
+•	Savings
+•	Analytics
+•	AI Coach
+•	Settings
 
 ## Get started
 
 1. Install dependencies
-
-   ```bash
    npm install
-   ```
 
 2. Start the app
-
-   ```bash
    npx expo start
-   ```
+   
+3.	Open using:
+o	Expo Go (mobile)
+o	Android emulator
+o	iOS simulator
 
-In the output, you'll find options to open the app in a
+ Academic Context
+This project was developed as part of a final year dissertation in software development. It demonstrates:
+•	System design using UML concepts
+•	Mobile application development
+•	Data analysis and visualisation
+•	Intelligent decision-support systems
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+ Future Improvements
+•	Cloud data synchronisation
+•	Real AI integration (API-based)
+•	Bank account linking
+•	Notifications and reminders
+•	Predictive financial analytics
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+ Author
+Patrick
+Final Year Student – Software Development
 
-## Get a fresh project
 
-When you're ready, run:
+   
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
